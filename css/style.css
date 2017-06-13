@@ -1,0 +1,90 @@
+body {
+  background-color: #73cfe8;
+}
+
+.header {
+  background-color: #f4b321;
+  height: 70px
+}
+
+.content {
+  background-color: #73cfe8;
+  /*// height:80vh;*/
+}
+
+.box {
+  border: 3px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  position: relative;
+  margin-top: -20px;
+}
+
+.word {
+  color: white;
+  font-weight: bolder;
+  margin: 0px !important;
+  position: absolute;
+  top: 23%;
+  left: 23%;
+}
+
+.number {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border: 1px solid rgba(255, 0, 0, .5);
+  color: white;
+  text-align: center;
+  font-size: 58px;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+table {
+  background-color: black;
+  opacity: .5;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+#board {
+  width: 100%;
+  height: 40vh;
+  margin-top: 49px
+}
+
+#moves {
+  font-size: 20px;
+}
+
+#moveCount {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#left-side {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#move {
+  background-color: #96e5f4;
+  border-radius: 9px;
+  margin-top: 50px;
+  margin-left: 30px;
+width: 220px;
+}
+.levels{
+    margin-left:20px;
+    width:80px
+}
+.buttons{
+    margin-top: 20px;
+}
+#t{
+    margin-top: 13px;
+width: 94px;    
+}

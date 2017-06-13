@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OnePush</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="">
+  <div class="row header">
+      <h1 class="visible-sm visible-xs hidden-md" style="text-align:center;color:white">NUBBLE</h1>
+  </div>
+  <div style="background-color: #73cfe8;" class="row">
+    <div class="col-md-4 hidden-sm">
+
+    </div>
+    <div class="col-md-4 hidden-xs hidden-sm">
+      <div class="row">
+        <div class="words col-md-2">
+          <div class="box">
+            <h3 class="word">N</h3>
+          </div>
+        </div>
+        <div class="words col-md-2">
+          <div class="box">
+            <h3 class="word">U</h3>
+          </div>
+        </div>
+        <div class="words col-md-2">
+          <div class="box">
+            <h3 class="word">B</h3>
+          </div>
+        </div>
+        <div class="words col-md-2">
+          <div class="box">
+            <h3 class="word">B</h3>
+          </div>
+        </div>
+        <div class="words col-md-2">
+          <div class="box">
+            <h3 class="word">L</h3>
+          </div>
+        </div>
+        <div class="words col-md-2">
+          <div class="box">
+            <h3 class="word">E</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 hidden-sm">
+
+    </div>
+  </div>
+  <div class="row content">
+    <div class="col-md-2 col-sm-4 col-xs-4">
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-4" id="left-side">
+
+      <div class="">
+        <span style="color: yellow;font-size: 25px;" class="glyphicon glyphicon-flash" aria-hidden=""></span>
+        <span id="moves">Moves:</span><span id="moveCount">0</span>
+      </div>
+      <div class="">
+          <div id="t" class="badge">00:00</div>
+      </div>
+      <div class="">
+        <button style="margin-top:20px" id="newGame" type="button" class="btn btn-success">New Game</button>
+      </div>
+      <div class="">
+
+         <button style="margin-top:20px;width:95px;" id="undo" type="button" class="btn btn-warning">Undo</button>
+      </div>
+
+    </div>
+    <div class="col-md-4">
+      <div class="row">
+        <div class="col-md-12" id="game">
+          <div class="col-md-12">
+            <table id="board">
+            </table>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12 buttons">
+              <button type="button" id="easy" class="btn btn-warning levels">Easy</button>
+              <button type="button" id="medium" class="btn btn-warning levels">Medium</button>
+              <button type="button" id="hard" class="btn btn-warning levels">Hard</button>
+              <button type="button" onclick="customInput()" id="Custom" class="btn btn-warning levels">Custom</button>
+          </div>
+
+      </div>
+    </div>
+    <div id="move" class="col-md-3">
+        <h3 id="moves">Your Moves</h3>
+        <div id="moveString">
+
+        </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+
+    </div>
+    <div class="col-md-4">
+
+    </div>
+    <div class="col-md-4">
+
+    </div>
+
+  </div>
+
+  <script src="javascript/jquery-3.1.0.min.js"></script>
+  <script src="javascript/timer.jquery.min.js"></script>
+  <script src="javascript/bootstrap.min.js"></script>
+  <script src="javascript/handlebars.js"></script>
+  <script src="javascript/gameFunction.js"></script>
+  <script src="javascript/script.js"></script>
+</body>
+
+</html>
